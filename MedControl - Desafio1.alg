@@ -2,23 +2,6 @@ algoritmo "MedControl"
 // ============================================================================
 // MEDCONTROL - Sistema de Gerenciamento de Atendimentos de uma Clinica Medica
 // Desafio 1 - Logica de Programacao - Tema 2
-//
-// ESTRUTURAS DE DADOS
-//  - REGISTRO TPaciente: agrupa todos os dados de um paciente.
-//  - VETOR DE REGISTROS pacientes[1..30]: todos os cadastrados (ordem de chegada).
-//  - VETOR DE REGISTROS fila[1..30]: copia ORDENADA dos que aguardam atendimento.
-//  - MATRIZ estat[prioridade, coluna]:
-//       linhas  = 4 niveis de prioridade (1 a 4)
-//       colunas = 1-Cadastrados, 2-Aguardando, 3-Atendidos
-//       Atualizada no cadastro (cadastrados+1, aguardando+1) e no
-//       atendimento (aguardando-1, atendidos+1).
-//
-// CONSTANTES: variaveis em MAIUSCULAS preenchidas uma unica vez em
-//  inicializarSistema e nunca alteradas depois.
-//
-// ESCOPO: globais apenas as constantes, os vetores, a matriz e o estado do menu
-//  (o VisuAlg nao aceita vetor como parametro). Codigos, posicoes e quantidade
-//  de pacientes sao passados por parametro; contadores e auxiliares sao locais.
 // ============================================================================
 tipo
    TPaciente = registro
