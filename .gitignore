@@ -1,0 +1,10 @@
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.vscode/
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
