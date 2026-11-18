@@ -4,6 +4,7 @@
 .LSOverride
 ._*
 .vscode/
+
 # ---------- Python ----------
 __pycache__/
 *.py[cod]
